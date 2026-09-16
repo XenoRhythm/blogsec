@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>State of Cybersecurity | KRKN Works</title>
+<meta name="keywords" content="cybersecurity, non-tech">
+<meta name="description" content="Security spending grows because none of the parties involved — engineer, buyer, vendor — can measure whether security actually works. Opacity, not malice, drives the industry&rsquo;s fragmentation, sprawl and opacity premium.">
+<meta name="author" content="Denis Kurakin">
+<link rel="canonical" href="http://localhost:1313/posts/20-09-26-cybersec-state/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d04ed907d31b7e58b3598fc9af9b2120cae4f535762dac0c8c437a3bcd9aa503.css" integrity="sha256-0E7ZB9MbflizWY/Jr5shIMrk9TV2LawMjEN6O82apQM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/20-09-26-cybersec-state/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Mozilla+Text:wght@200..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e7eaf4a900ee4982a94149d2db1e92e4"}'></script><meta property="og:url" content="http://localhost:1313/posts/20-09-26-cybersec-state/">
+  <meta property="og:site_name" content="KRKN Works">
+  <meta property="og:title" content="State of Cybersecurity">
+  <meta property="og:description" content="Security spending grows because none of the parties involved — engineer, buyer, vendor — can measure whether security actually works. Opacity, not malice, drives the industry’s fragmentation, sprawl and opacity premium.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-09-14T05:19:24+09:00">
+    <meta property="article:modified_time" content="2026-09-14T05:19:24+09:00">
+    <meta property="article:tag" content="Cybersecurity">
+    <meta property="article:tag" content="Non-Tech">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="State of Cybersecurity">
+  <meta name="twitter:description" content="Security spending grows because none of the parties involved — engineer, buyer, vendor — can measure whether security actually works. Opacity, not malice, drives the industry’s fragmentation, sprawl and opacity premium.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "State of Cybersecurity",
+      "item": "http://localhost:1313/posts/20-09-26-cybersec-state/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "State of Cybersecurity",
+  "name": "State of Cybersecurity",
+  "description": "Security spending grows because none of the parties involved — engineer, buyer, vendor — can measure whether security actually works. Opacity, not malice, drives the industry\u0026rsquo;s fragmentation, sprawl and opacity premium.",
+  "keywords": [
+    "cybersecurity", "non-tech"
+  ],
+  "articleBody": "Situation 1: A security engineer, reading another zero-day disclosure and analysis paper and coming up in their mind with the new detection rule for it, wonders if the work they do brings any value to the company since they haven’t had a cybersecurity incident for more than a year now.\nSituation 2: A company executive, eager to secure the business, goes into a vendor selection process. Looking through the identical offers, they have to resort to reviews from an analytical company. Settling on the decision and requesting the invoice for all the products required, they decide they had been doing fine without protection.\nSituation 3: A presale of a cybersecurity company converses with the client to find the most suitable solution. They are forced to bundle a couple of unneeded products on top of the core offering – sales strategy. They know the solution is technically sound and works – but it requires multiple integrated modules to achieve its peak performance, which makes the invoice unreasonably expensive, forcing the client to stick with the core bundle and rendering the core module effectively useless.\nHopefully, none of the above sounds familiar to you. It does to me, which prompted me to stop and look back, trying to understand how we arrived at a point where the need is as simple as ‘we want security’, but something fundamental is broken: all parties involved end up dissatisfied.\nSo, to address the elephant in the room: are we selling snake oil? No, we are not. But it is my opinion that cybersecurity currently suffers from both structural and induced opaqueness which makes fair exchange of value between involved parties and the healthy development almost impossible.\n‘Security through obscurity’ is a known anti-pattern developed in cryptography, with best practice being ‘system design should be known, verified and improved’ while the key - it’s exact configuration - remains a secret, ensuring security. Poetically, cybersecurity industry done exactly the opposite with obscurity being put on the pedestal as long as it drives sales and profits.\nThere is no simple way to compare vendors and/or products. From my experience, word of mouth, personal connections and third-party analytics are the only things that do work to some degree. Work, but not solve the underlying issue. Until more transparent, open-source comparisons are made, the cybersecurity field will reap the dubious premium on its product, damaging its reputation and longevity in the long run.\nGiven that it is a deliberate opaqueness, it can be fixed. The step in a right direction, although not perfect, was made with MITRE ATT\u0026CK evaluations, which is supposed to work as a benchmark for EDR-class of products.\nHarder still is the inherent industry opaqueness.\nCybersecurity to me seems more like utility, akin to a healthcare system: you never notice it while everything works, but urgently need it when something breaks. Doubt im the first one to use that analogy. The need for constant background maintanance without clear feedback is what makes the value - invisible, while costs - noticeable. This is a given and cannot be realistically solved.\nWorking on top of my previous analogy, you can’t foresee the weakest link to give-in. What will fail next? Is it your heart? Your liver? Lungs, perhaps? No, when you decide to get a health insurance, you need to cover as much as you can, just in case. And we arrive at the next structural problem: product sprawl.\nThe cybersecurity is not a novel area. It went from inception in the 80s, when people looked at IT from a different angle, through puberty in the 90s with internet access and adolescence in the 00s, to adulthood in the 10s and seeming maturity in 20s - so where’s the unified approach?\nFrequent developments in the IT landscape produce completely novel classes of threats that often completely undermine previously established security baseline. Thus a completely new solution is required, proliferating the sprawl. There is rarely a cut-off, unfortunately. More often than not companies are accumulating technical debt of cybersecurity, starting from the classes of products no longer used and ending up at novel but unproven solutions. The lack of qualified management exacerbates this problem further, preventing a clear strategy of matching means to ends and balancing security needs with the company’s resources.\nThis is further worsened by the assymetric, pulse-like nature of security work: to justify constant cybersecurity spending, managers and teams have to constantly justify the value they bring, which usually leads to uncontrolled proliferation of security products inside the company, as it is the simplest visible metric. That’s how we arrive at sprawl from the client side.\nWell then why can’t we consolidate and maintain just a few core companies and a products? Ultimately, this is where we’re moving. It won’t necesseraly solve the problem though, as having select few security champions does not mean either their product will be better or cost effective. Once a company carves a niche with a baseline solution, it’s only natural to try and re-use it for horizontal sprawl, attempting to capture new markets without incurring new development costs. Yes, most likely it will be worse than the dedicated company in that niche, but as long as some clients are captured – the incentive is there. And that’s how we arrive at tool overload from the vendor side.\nFurthermore, proper consolidation, in my opinion, is prevented by structural reasons. Similar to the software development, almost no barrier to entry means startups coming up with solutions faster or even better compared to established companies. Government regulation and compliance keep legacy vendors afloat and lock down niches from newcomers. The muddied intersection of cybersecurity and government interests also introduces some barriers for entry to national markets and props up national champions. The industry by its nature is incentivized to remain fragmented. And the longer the product exists, the more commercially exploitative it becomes to drive the company’s revenue and profit, nullifying its original value.\nWriting this, I realize how strikingly similar cybersecurity is structurally to the AI craze, with the same opaqueness and sprawl problems.\nNaturally, question arises if we can improve and how. We should strive to eliminate self-induced reasons while mitigating structural ones as much as we can to arrive at a proper equilibrium.\nTo combat the opaqueness, we should welcome transparency through benchmarks, demos, comparisons and pricing. We need to win customers by the quality of our offerings, and not by the deals under the table and predatory monetization.\nTo combat the sprawl, talented management. It’s a tight rope to walk: addressing the real risk with constrained resources while making executives understand how and where the money is being spent and what value is being received. Understanding where value is made and where it is merely transferred is the first and most important step. Knowing what kind of risk the business is facing and how it is best addressed is the value created; the compliance checkboxes, redundant tools and analyst reports is the value transferred to someone else’s pocket. Spending review and aggressive cuts to obsolete and legacy threats and toolings with focus on novel research should be the common sense.\nIt’s neither going to be easy nor fast. But i sincerely hope one day the security-aware company executive uses available transparent metric to find the most suitable cybersecurity company cost-value wise, reachout to them and receives a fair offer of minimally-required solutions to mitigate the risk, enabling security personnel to carry on their duties with clear vision of their worth.\nTerminology collision to fix while you’re in there: “structural” is your umbrella word (section title, ¶62 “structural reasons”) and one of your two layers (¶34). Four terms currently map to two concepts: Line\tNow says\tStandardize to 34\t“structural and induced opaqueness”\t“induced and inherent opaqueness” 44\t“deliberate opaqueness”\t“induced opaqueness” 46\t“inherent industry opaqueness”\t✓ keep 68\t“self-induced… structural ones”\t“induced ones… inherent ones”\n",
+  "wordCount" : "1315",
+  "inLanguage": "en",
+  "datePublished": "2026-09-14T05:19:24+09:00",
+  "dateModified": "2026-09-14T05:19:24+09:00",
+  "author":{
+    "@type": "Person",
+    "name": "Denis Kurakin"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/20-09-26-cybersec-state/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "KRKN Works",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Works (Alt + H)">
+                <img src="http://localhost:1313/apple-touch-icon.png" alt="" aria-label="logo"
+                    height="30">Works</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="http://localhost:1313/ru/" title="Русский"
+                                aria-label="Русский">Ru</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/posts/">Posts</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+    <h1 class="post-title entry-hint-parent">
+      State of Cybersecurity
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-09-14 05:19:24 +0900 JST'>September 14, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>Denis Kurakin</span>
+
+</div>
+  </header> 
+
+  <div class="post-content md-content"><p>Situation 1: A security engineer, reading another zero-day disclosure and analysis paper and coming up in their mind with the new detection rule for it, wonders if the work they do brings any value to the company since they haven&rsquo;t had a cybersecurity incident for more than a year now.</p>
+<p>Situation 2: A company executive, eager to secure the business, goes into a vendor selection process. Looking through the identical offers, they have to resort to reviews from an analytical company. Settling on the decision and requesting the invoice for all the products required, they decide they had been doing fine without protection.</p>
+<p>Situation 3: A presale of a cybersecurity company converses with the client to find the most suitable solution. They are forced to bundle a couple of unneeded products on top of the core offering – sales strategy. They know the solution is technically sound and works – but it requires multiple integrated modules to achieve its peak performance, which makes the invoice unreasonably expensive, forcing the client to stick with the core bundle and rendering the core module effectively useless.</p>
+<p>Hopefully, none of the above sounds familiar to you. It does to me, which prompted me to stop and look back, trying to understand how we arrived at a point where the need is as simple as &lsquo;we want security&rsquo;, but something fundamental is broken: all parties involved end up dissatisfied.</p>
+<p>So, to address the elephant in the room: are we selling snake oil? No, we are not. But it is my opinion that cybersecurity currently suffers from both structural and induced opaqueness which makes fair exchange of value between involved parties and the healthy development almost impossible.</p>
+<p>&lsquo;Security through obscurity&rsquo; is a known anti-pattern developed in cryptography, with best practice being &lsquo;system design should be known, verified and improved&rsquo; while the key - it&rsquo;s exact configuration - remains a secret, ensuring security. Poetically, cybersecurity industry done exactly the opposite with obscurity being put on the pedestal as long as it drives sales and profits.</p>
+<p>There is no simple way to compare vendors and/or products. From my experience, word of mouth, personal connections and third-party analytics are the only things that do work to some degree. Work, but not solve the underlying issue. Until more transparent, open-source comparisons are made, the cybersecurity field will reap the dubious premium on its product, damaging its reputation and longevity in the long run.</p>
+<p>Given that it is a deliberate opaqueness, it can be fixed. The step in a right direction, although not perfect, was made with MITRE ATT&amp;CK evaluations, which is supposed to work as a benchmark for EDR-class of products.</p>
+<p>Harder still is the inherent industry opaqueness.</p>
+<p>Cybersecurity to me seems more like utility, akin to a healthcare system: you never notice it while everything works, but urgently need it when something breaks. Doubt im the first one to use that analogy. The need for constant background maintanance without clear feedback is what makes the value - invisible, while costs - noticeable. This is a given and cannot be realistically solved.</p>
+<p>Working on top of my previous analogy, you can&rsquo;t foresee the weakest link to give-in. What will fail next? Is it your heart? Your liver? Lungs, perhaps? No, when you decide to get a health insurance, you need to cover as much as you can, just in case. And we arrive at the next structural problem: product sprawl.</p>
+<p>The cybersecurity is not a novel area. It went from inception in the 80s, when people looked at IT from a different angle, through puberty in the 90s with internet access and adolescence in the 00s, to adulthood in the 10s and seeming maturity in 20s - so where&rsquo;s the unified approach?</p>
+<p>Frequent developments in the IT landscape produce completely novel classes of threats that often completely undermine previously established security baseline. Thus a completely new solution is required, proliferating the sprawl. There is rarely a cut-off, unfortunately. More often than not companies are accumulating technical debt of cybersecurity, starting from the classes of products no longer used and ending up at novel but unproven solutions. The lack of qualified management exacerbates this problem further, preventing a clear strategy of matching means to ends and balancing security needs with the company&rsquo;s resources.</p>
+<p>This is further worsened by the assymetric, pulse-like nature of security work: to justify constant cybersecurity spending, managers and teams have to constantly justify the value they bring, which usually leads to uncontrolled proliferation of security products inside the company, as it is the simplest visible metric. That&rsquo;s how we arrive at sprawl from the client side.</p>
+<p>Well then why can&rsquo;t we consolidate and maintain just a few core companies and a products? Ultimately, this is where we&rsquo;re moving. It won&rsquo;t necesseraly solve the problem though, as having select few security champions does not mean either their product will be better or cost effective. Once a company carves a niche with a baseline solution, it&rsquo;s only natural to try and re-use it for horizontal sprawl, attempting to capture new markets without incurring new development costs. Yes, most likely it will be worse than the dedicated company in that niche, but as long as some clients are captured – the incentive is there. And that&rsquo;s how we arrive at tool overload from the vendor side.</p>
+<p>Furthermore, proper consolidation, in my opinion, is prevented by structural reasons. Similar to the software development, almost no barrier to entry means startups coming up with solutions faster or even better compared to established companies. Government regulation and compliance keep legacy vendors afloat and lock down niches from newcomers. The muddied intersection of cybersecurity and government interests also introduces some barriers for entry to national markets and props up national champions. The industry by its nature is incentivized to remain fragmented. And the longer the product exists, the more commercially exploitative it becomes to drive the company&rsquo;s revenue and profit, nullifying its original value.</p>
+<p>Writing this, I realize how strikingly similar cybersecurity is structurally to the AI craze, with the same opaqueness and sprawl problems.</p>
+<p>Naturally, question arises if we can improve and how. We should strive to eliminate self-induced reasons while mitigating structural ones as much as we can to arrive at a proper equilibrium.</p>
+<p>To combat the opaqueness, we should welcome transparency through benchmarks, demos, comparisons and pricing. We need to win customers by the quality of our offerings, and not by the deals under the table and predatory monetization.</p>
+<p>To combat the sprawl, talented management. It&rsquo;s a tight rope to walk: addressing the real risk with constrained resources while making executives understand how and where the money is being spent and what value is being received. Understanding where value is made and where it is merely transferred is the first and most important step. Knowing what kind of risk the business is facing and how it is best addressed is the value created; the compliance checkboxes, redundant tools and analyst reports is the value transferred to someone else&rsquo;s pocket. Spending review and aggressive cuts to obsolete and legacy threats and toolings with focus on novel research should be the common sense.</p>
+<p>It&rsquo;s neither going to be easy nor fast. But i sincerely hope one day the security-aware company executive uses available transparent metric to find the most suitable cybersecurity company cost-value wise, reachout to them and receives a fair offer of minimally-required solutions to mitigate the risk, enabling security personnel to carry on their duties with clear vision of their worth.</p>
+<p>Terminology collision to fix while you&rsquo;re in there: &ldquo;structural&rdquo; is your umbrella word (section title, ¶62 &ldquo;structural reasons&rdquo;) and one of your two layers (¶34). Four terms currently map to two concepts:
+Line	Now says	Standardize to
+34	&ldquo;structural and induced opaqueness&rdquo;	&ldquo;induced and inherent opaqueness&rdquo;
+44	&ldquo;deliberate opaqueness&rdquo;	&ldquo;induced opaqueness&rdquo;
+46	&ldquo;inherent industry opaqueness&rdquo;	✓ keep
+68	&ldquo;self-induced&hellip; structural ones&rdquo;	&ldquo;induced ones&hellip; inherent ones&rdquo;</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/cybersecurity/">Cybersecurity</a></li>
+      <li><a href="http://localhost:1313/tags/non-tech/">Non-Tech</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">KRKN Works</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
